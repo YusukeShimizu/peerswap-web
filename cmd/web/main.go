@@ -38,7 +38,7 @@ var templates = template.New("")
 func main() {
 	// simulate loading from config file
 	Config = Configuration{
-		RpcHost:     "localhost:42069",
+		RpcHost:     "peerswap1:42069",
 		ListenPort:  "8088",
 		ColorScheme: "dark",                           // dark or light
 		MempoolApi:  "https://mempool.space/testnet",  // remove testnet for mainnet
